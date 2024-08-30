@@ -1,26 +1,27 @@
 import React from 'react'
 import './About.css'
+import about from '../../assets/about.jpg'
 
 const About = () => {
     return (
-        <div className="about">
+        <div className="about-section">
+            <div className="about-image">
+                <img src={about} alt="About Us" />
+            </div>
             <div className="about-content">
                 <h2>About Us</h2>
                 <p>
-                    Established in 2000, our beauty parlor has been a sanctuary of
-                    elegance and relaxation for our clients. We believe in enhancing your
-                    natural beauty with our professional and personalized services.
+                    Welcome to our beauty parlor, where elegance and beauty meet relaxation. Our mission is to
+                    provide our clients with the highest level of service and expertise in a soothing and
+                    luxurious environment. With a team of highly skilled professionals, we offer a wide range
+                    of beauty services tailored to meet your individual needs.
                 </p>
                 <p>
-                    Our team of expert beauticians is dedicated to providing you with the
-                    highest level of service and attention. From luxurious facials to
-                    stunning hairstyles, we offer a wide range of services designed to
-                    make you look and feel your best.
+                    Whether you're here for a simple haircut, a revitalizing facial, or a complete makeover, we
+                    ensure you leave feeling refreshed, beautiful, and confident. Our dedication to excellence
+                    and our passion for beauty make us your perfect choice for all your beauty needs.
                 </p>
-                <p>
-                    Come visit us and experience the perfect blend of style and comfort.
-                    We are here to make your beauty dreams a reality.
-                </p>
+                <a href="#services" className="about-button">Discover Our Services</a>
             </div>
         </div>
     )
