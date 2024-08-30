@@ -11,7 +11,7 @@ const Navbar = () => {
             <div className="logo">
                 <h1>Gulshan<span>Makeovers</span></h1>
             </div>
-            <ul className="nav-links">
+            <ul className={`nav-links ${isOpen ? 'open' : ''}`}>
                 <li><a>Home</a></li>
                 <li><a>Services</a></li>
                 <li><a>About</a></li>
