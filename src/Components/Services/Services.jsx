@@ -7,7 +7,7 @@ import makeUp from '../../assets/makeup.jpg'
 
 const Services = () => {
     return (
-        <div className="services">
+        <div id='services' className="services">
             <h2>Our Services</h2>
             <div className="services-container">
                 <div className="service-card">

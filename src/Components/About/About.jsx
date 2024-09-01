@@ -4,7 +4,7 @@ import about from '../../assets/about.jpg'
 
 const About = () => {
     return (
-        <div className="about-section">
+        <div id='about' className="about-section">
             <div className="about-image">
                 <img src={about} alt="About Us" />
             </div>

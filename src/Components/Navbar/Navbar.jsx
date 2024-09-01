@@ -12,10 +12,10 @@ const Navbar = () => {
                 <h1>Gulshan<span>Makeovers</span></h1>
             </div>
             <ul className={`nav-links ${isOpen ? 'open' : ''}`}>
-                <li><a>Home</a></li>
-                <li><a>Services</a></li>
-                <li><a>About</a></li>
-                <li><a>Contact</a></li>
+                <li><a href='#'>Home</a></li>
+                <li><a href='#services'>Services</a></li>
+                <li><a href='#about'>About</a></li>
+                <li><a href='#contact'>Contact</a></li>
             </ul>
             <div className="hamburger" onClick={toggleMenu}>
                 <div className={`line ${isOpen ? 'open' : ''}`}></div>

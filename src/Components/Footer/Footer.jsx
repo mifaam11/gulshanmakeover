@@ -1,5 +1,8 @@
 import React from 'react'
 import './Footer.css'
+import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+
 
 const Footer = () => {
     return (
@@ -16,23 +19,23 @@ const Footer = () => {
                     <h2>Quick Links</h2>
                     <ul>
                         <li><a href="#">Home</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
                 <div className="footer-section social">
                     <h2>Follow Us</h2>
                     <div className="social-links">
-                        <a href="#"><i className="fab fa-facebook-f"></i></a>
-                        <a href="#"><i className="fab fa-twitter"></i></a>
-                        <a href="#"><i className="fab fa-instagram"></i></a>
-                        <a href="#"><i className="fab fa-linkedin-in"></i></a>
+                        <a href="#"><FaFacebookF /></a>
+                        <a href="#"><FaXTwitter /></a>
+                        <a href="#"><FaInstagram /></a>
+                        <a href="#"><FaLinkedinIn /></a>
                     </div>
                 </div>
             </div>
             <div className="footer-bottom">
-                <p>&copy; 2024 Make Over By Gulshan | Designed by <a href='#'>Mohd Ifam</a></p>
+                <p>&copy; 2024 <span>GulshanMakeovers</span> | Designed by <a target='blank' href='https://www.instagram.com/ifam07?igsh=MWtxMTlzZDdiN2tuag=='>Mohd Ifam</a></p>
             </div>
         </footer>
     )

@@ -2,13 +2,13 @@
 .about-section {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 50px 30px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .about-image img {
-    width: 30rem;
+    width: 100vh;
     height: auto;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
@@ -22,7 +22,6 @@
 .about-content h2 {
     font-size: 36px;
     color: #e91e63;
-    font-family: 'Playfair Display', serif;
     margin-bottom: 20px;
 }
 
@@ -31,7 +30,6 @@
     color: #555;
     line-height: 1.6;
     margin-bottom: 20px;
-    font-family: 'Arial', sans-serif;
 }
 
 .about-button {
@@ -42,7 +40,6 @@
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s ease;
-    font-family: 'Arial', sans-serif;
 }
 
 .about-button:hover {
