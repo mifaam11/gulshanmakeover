@@ -58,6 +58,10 @@
     transition: color 0.3s ease;
 }
 
+.social-links {
+    margin-bottom: 15px;
+}
+
 .social-links a:hover {
     color: #e91e63;
 }
