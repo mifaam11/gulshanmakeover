@@ -5,6 +5,9 @@ const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     const toggleMenu = () => setIsOpen(!isOpen);
+    const handleMenuClick = () => {
+        setIsOpen(false);
+    }
 
     return (
         <nav className="navbar">
@@ -12,10 +15,10 @@ const Navbar = () => {
                 <h1>Gulshan<span>Makeovers</span></h1>
             </div>
             <ul className={`nav-links ${isOpen ? 'open' : ''}`}>
-                <li><a href='#'>Home</a></li>
-                <li><a href='#services'>Services</a></li>
-                <li><a href='#about'>About</a></li>
-                <li><a href='#contact'>Contact</a></li>
+                <li><a href='#' onClick={handleMenuClick}>Home</a></li>
+                <li><a href='#services' onClick={handleMenuClick}>Services</a></li>
+                <li><a href='#about' onClick={handleMenuClick}>About</a></li>
+                <li><a href='#contact' onClick={handleMenuClick}>Contact</a></li>
             </ul>
             <div className="hamburger" onClick={toggleMenu}>
                 <div className={`line ${isOpen ? 'open' : ''}`}></div>

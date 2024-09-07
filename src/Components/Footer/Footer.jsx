@@ -8,13 +8,6 @@ const Footer = () => {
     return (
         <footer className="footer">
             <div className="footer-container">
-                <div className="footer-section about">
-                    <h2>About Us</h2>
-                    <p>
-                        We are dedicated to providing the best beauty services to make you feel confident and beautiful.
-                        Our professional team ensures a luxurious experience every time you visit.
-                    </p>
-                </div>
                 <div className="footer-section links">
                     <h2>Quick Links</h2>
                     <ul>
@@ -24,6 +17,15 @@ const Footer = () => {
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
+                <div className="footer-section learn">
+                    <h2>Learn More</h2>
+                    <ul>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Security</a></li>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Sitemap</a></li>
+                    </ul>
+                </div>
                 <div className="footer-section social">
                     <h2>Follow Us</h2>
                     <div className="social-links">
@@ -31,6 +33,9 @@ const Footer = () => {
                         <a href="#"><FaXTwitter /></a>
                         <a href="#"><FaInstagram /></a>
                         <a href="#"><FaLinkedinIn /></a>
+                    </div>
+                    <div className='logo'>
+                        <h1>Gulshan<span>Makeovers</span></h1>
                     </div>
                 </div>
             </div>

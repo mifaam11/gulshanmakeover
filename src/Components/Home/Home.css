@@ -76,3 +76,18 @@
         font-size: 14px;
     }
 }
+
+@media (max-width: 400px) {
+    .hero-section h2 {
+        font-size: 25px;
+    }
+
+    .hero-section p {
+        font-size: 13px;
+    }
+
+    .cta-button {
+        padding: 10px 11px;
+        font-size: 10px;
+    }
+}

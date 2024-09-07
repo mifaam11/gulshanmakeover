@@ -97,3 +97,17 @@
         font-size: 20px;
     }
 }
+
+@media (max-width: 400px) {
+    .footer-section h2 {
+        font-size: 15px;
+    }
+
+    .footer-section ul li a {
+        font-size: 13px;
+    }
+
+    .footer-bottom {
+        font-size: 10px
+    }
+}

@@ -63,3 +63,31 @@
         align-items: center;
     }
 }
+
+@media (max-width: 400px) {
+    .services h2 {
+        font-size: 26px;
+    }
+
+    .service-card h3 {
+        font-size: 20px;
+    }
+
+    .service-card p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 245px) {
+    .services h2 {
+        font-size: 22px;
+    }
+
+    .service-card h3 {
+        font-size: 16px;
+    }
+
+    .service-card p {
+        font-size: 10px;
+    }
+}
